@@ -1,0 +1,18 @@
+body {
+
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: rgb(255, 220, 220);
+}
+.links {
+    display: inline-flex;
+    gap: 10px;
+}
+li {
+  list-style: none;
+}

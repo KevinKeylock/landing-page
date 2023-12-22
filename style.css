@@ -1,4 +1,5 @@
 body {
+  
 
 }
 .header {
@@ -7,12 +8,35 @@ body {
   justify-content: space-between;
   padding-left: 200px;
   padding-right: 200px;
-  background-color: rgb(255, 220, 220);
+  background-color: rgb(255, 220, 220); 
 }
+
 .links {
-    display: inline-flex;
-    gap: 10px;
+  display: inline-flex;
+  gap: 15px;
+}
+.first {
+  display: flex;
+  background-color: rgb(255, 220, 220);
+  justify-content:center;
+  gap: 25px;
+  
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  max-width: 350px;
+}
+
+.football-image {
+    padding: 15px 0;
 }
 li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }

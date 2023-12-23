@@ -4,11 +4,9 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content:space-around ;
   background-color: rgb(255, 180, 180); 
   color: white;
-
-
 }
 
 .links {
@@ -57,12 +55,27 @@ body {
   gap: 25px;
   color: white;
   text-align: center;
+  padding-bottom: 20px;
 }
 .stat {
   max-width: 200px;
 }
 .top {
   border-radius: 25px;
+}
+.third {
+  background-color: rgb(255, 180, 180);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  color: white;
+}
+.quote {
+  max-width: 600px;
+  font-size: 25px;
+  text-align: justify;
 }
 li {
   list-style: none;

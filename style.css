@@ -100,6 +100,14 @@ body {
 .sign-up {
   padding: 0px 30px;
 }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 180, 180);
+  padding: 20px 0;
+  color: white;
+}
 li {
   list-style: none;
   padding: 0;
@@ -109,4 +117,9 @@ button {
   background-color: rgb(37, 37, 37);
   color: white;
   border-radius: 5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
